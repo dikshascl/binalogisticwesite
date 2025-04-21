@@ -1,0 +1,12 @@
+{
+    "BINA1001": {
+      "status": "In Transit",
+      "location": "Kolkata Hub",
+      "expected_delivery": "23-Apr-2025"
+    },
+    "BINA1002": {
+      "status": "Delivered",
+      "location": "Mumbai",
+      "expected_delivery": "20-Apr-2025"
+    }
+  }
