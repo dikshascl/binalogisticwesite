@@ -1,35 +1,117 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f2f2f2;
-  }
-  
-  header {
-    background: #003366;
-    color: white;
-    padding: 20px 10px;
-    text-align: center;
-  }
-  
-  .logo {
-    width: 120px;
-    margin-bottom: 10px;
-  }
-  
-  .services {
-    padding: 40px 10px;
-    background: white;
-    text-align: center;
-  }
-  
-  .services h2 {
-    color: #003366;
-  }
-  
-  footer {
-    background: #003366;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.header .cta-button:hover {
+  background: #0056b3;
+  color: #fff;
+}
+
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.services, .testimonials, .contact-us {
+  padding: 20px;
+  text-align: center;
+}
+
+.services h2, .testimonials h2, .contact-us h2 {
+  color: #007bff;
+}
+
+.testimonials .testimonial {
+  margin: 20px auto;
+  max-width: 600px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial strong {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+.contact-us form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-us label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-us input, .contact-us textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-us button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-us button:hover {
+  background: #0056b3;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
